@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gserver (0.0.1)
+    net-http-server (0.2.3)
+      gserver (~> 0.0)
+      parslet (~> 1.0)
+    parslet (1.8.2)
+
+PLATFORMS
+  aarch64-linux-musl
+  arm64-darwin-22
+
+DEPENDENCIES
+  net-http-server
+
+BUNDLED WITH
+   2.3.7
