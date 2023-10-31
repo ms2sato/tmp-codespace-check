@@ -1,4 +1,4 @@
-FROM ruby:3.1.2-alpine3.14
+FROM mcr.microsoft.com/devcontainers/ruby
 
 # ENV LANG C.UTF-8
 # ENV TZ Asia/Tokyo
