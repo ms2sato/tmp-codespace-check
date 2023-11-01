@@ -8,4 +8,4 @@ services:
       - 3000:3000
     command: "ruby server.rb"
     volumes:
-      - .:/work
+      - .:/workspace:cached
